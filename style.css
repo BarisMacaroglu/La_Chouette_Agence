@@ -654,6 +654,12 @@ a {
     color: #575757!important;
 }
 
+form label:after
+{
+    color: red;
+    content: " *";
+}
+
 .container {
     max-width: 1000px;
 }
@@ -823,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1010,6 +1016,11 @@ h4 {
     }
     .voffset-lg {
         margin-top: 30px;
+    }
+
+    article img {
+        margin-left: auto;
+        margin-right: auto;
     }
     form {
         padding: 5px;
