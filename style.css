@@ -683,7 +683,7 @@ form label:after
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -1051,4 +1051,18 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+nav ul li a {
+    cursor: crosshair;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    color: blue;
+}
+
+.site-navigation li a:hover, .nav li a:hover, .navbar-nav li a:hover {
+    background-color: #F3976C;
+    color: white;
 }
